@@ -1,0 +1,6 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("imdevskp/ebola-outbreak-20142016-complete-dataset")
+
+print("Path to dataset files:", path)
